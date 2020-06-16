@@ -18,4 +18,12 @@ public class Bus {
     public int getCapacity() {
         return capacity;
     }
+
+    public int getPassengerCount() {
+        return passengers.size();
+    }
+
+    public void addPassenger(Person passenger) {
+        passengers.add(passenger);
+    }
 }
