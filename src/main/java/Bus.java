@@ -28,4 +28,10 @@ public class Bus {
             passengers.add(passenger);
         }
     }
+
+    public void removePassenger(Person passenger){
+        passengers.remove(passenger);
+    }
+
+
 }
