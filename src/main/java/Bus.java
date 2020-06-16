@@ -24,6 +24,8 @@ public class Bus {
     }
 
     public void addPassenger(Person passenger) {
-        passengers.add(passenger);
+        if (getPassengerCount() < this.capacity) {
+            passengers.add(passenger);
+        }
     }
 }
